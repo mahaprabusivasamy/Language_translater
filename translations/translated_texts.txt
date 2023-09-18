@@ -1,0 +1,15 @@
+--- English Translation ---
+high passengers the train is delayed due to the heavy rain please wait 5 minutes for the station the trial will come
+
+--- Tamil Translation ---
+அதிக பயணிகள் அதிக மழை காரணமாக ரயில் தாமதமாகிறது, சோதனை வரும் நிலையத்திற்கு 5 நிமிடங்கள் காத்திருங்கள்
+
+--- Telugu Translation ---
+భారీ వర్షం కారణంగా రైలు ఆలస్యం అవుతుంది, దయచేసి స్టేషన్ కోసం 5 నిమిషాలు వేచి ఉండండి ట్రయల్ వస్తుంది
+
+--- Kannada Translation ---
+ಭಾರಿ ಮಳೆಯಿಂದಾಗಿ ಹೆಚ್ಚಿನ ಪ್ರಯಾಣಿಕರು ರೈಲು ವಿಳಂಬವಾಗಿದೆ ದಯವಿಟ್ಟು ನಿಲ್ದಾಣಕ್ಕಾಗಿ 5 ನಿಮಿಷ ಕಾಯಿರಿ ಪ್ರಯೋಗವು ಬರುತ್ತದೆ
+
+--- Malayalam Translation ---
+കനത്ത മഴ കാരണം ട്രെയിൻ വൈകിയതിനാൽ ഉയർന്ന യാത്രക്കാർ സ്റ്റേഷനായി 5 മിനിറ്റ് കാത്തിരിക്കുക ട്രയൽ വരും
+
