@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text and Audio Translation</title>
+</head>
+<body>
+    <h1>Latest Translated Text</h1>
+    <p>{{ translated_text }}</p>
+
+    <h2>Translate to:</h2>
+    <form method="POST">
+        <label for="language_code_en">English</label>
+        <input type="radio" name="language_code" id="language_code_en" value="en">
+        <label for="language_code_ta">Tamil</label>
+        <input type="radio" name="language_code" id="language_code_ta" value="ta">
+        <label for="language_code_te">Telugu</label>
+        <input type="radio" name="language_code" id="language_code_te" value="te">
+        <label for="language_code_kn">Kannada</label>
+        <input type="radio" name="language_code" id="language_code_kn" value="kn">
+        <label for="language_code_ml">Malayalam</label>
+        <input type="radio" name="language_code" id="language_code_ml" value="ml">
+        <!-- Add more radio buttons for other languages -->
+
+        <button type="submit">Translate and Play Audio</button>
+        
+        <!-- Add Reset Button -->
+        <button type="button" id="resetButton">Reset</button>
+    </form>
+
+    <h2>Translated Audio</h2>
+    <audio id="audioPlayer" controls>
+        <source src="{{ audio_file }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="{{ url_for('static', filename='audio.js') }}"></script>
+    <script>
+        // JavaScript to reset the form
+        document.getElementById('resetButton').addEventListener('click', function() {
+            document.querySelector('form').reset();
+        });
+    </script>
+</body>
+</html>

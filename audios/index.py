@@ -51,7 +51,7 @@ def translate_and_save(input_text):
             tts = gTTS(text=translated_text, lang=lang_code)
 
             # Save the speech as an audio file with language code in the filename
-            audio_file_name = f"translations/{lang_code}_translated_audio.mp3"
+            audio_file_name = f"translations/{lang_code}{translated_text}_translated_audio.mp3"
             tts.save(audio_file_name)
 
             print(f"Saved {lang_name} audio as {audio_file_name}")
@@ -70,7 +70,7 @@ def translate_and_save(input_text):
             pygame.mixer.music.load(audio_file_name)
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
-                pygame.time.delay(100)
+                pygame.time.delay(10)
 
         print(f"Translations saved to {output_text_file}")
 
